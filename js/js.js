@@ -28,3 +28,6 @@ let artikeloverskrift2 = document.querySelector(
   ".articlegrid div:last-child h3"
 );
 artikeloverskrift2.textContent = "Spytpåmig";
+
+let billede1 = document.querySelector(".articlegrid img");
+billede1.setAttribute("src", "https://picsum.photos/id/80/400/300");
