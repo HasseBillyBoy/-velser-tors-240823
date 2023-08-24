@@ -31,3 +31,5 @@ artikeloverskrift2.textContent = "Spytpåmig";
 
 let billede1 = document.querySelector(".articlegrid img");
 billede1.setAttribute("src", "https://picsum.photos/id/80/400/300");
+
+billede1.alt = "kogler";
