@@ -1,0 +1,29 @@
+header {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.articlebox {
+  margin: auto;
+  width: 60%;
+}
+
+.articlegrid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+p {
+  max-width: 65ch;
+  margin: auto;
+}
+
+footer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
